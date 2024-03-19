@@ -48,7 +48,7 @@ common warnings
                     , RecordWildCards
 
 
-    ghc-options: -threaded -O2 -fprof-auto -fspecialise-aggressively -Wall
+    ghc-options: -threaded -rtsopts -O2 -Wall
 
 common libs
        build-depends: base ^>= 4.17.2.0
